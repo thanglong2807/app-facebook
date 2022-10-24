@@ -1,0 +1,127 @@
+.wrapper {
+    padding-top: 80px;
+    background-color: #f0f2f5;
+    display: flex;
+}
+.login-left {
+    margin-left: 229px;
+    width: 540px;
+}
+.login-left-title {
+    display: flex;
+    flex-direction: column;
+}
+.logo-fb {
+    width: 200px;
+    user-select: none;
+}
+.h2-login {
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 32px;
+    color: var(--color-text);
+}
+.span-login {
+    color: #606770;
+    font-size: 17px;
+    line-height: 24px;
+    margin-bottom: 30px;
+}
+.pd21 {
+    padding-left: 21px;
+}
+
+//
+.profile-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+//
+.login-right {
+    width: 400px;
+    height: 500px;
+    margin-left: 66px;
+}
+.login-right-wrapper {
+    margin-top: 53px;
+    padding: 20px 15px 24px 15px;
+    border: 1px solid #ccc;
+    background-color: #ffffff;
+    box-shadow: 0 1px 8px 5px #dddfe2;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.input-login-right {
+    border: 1px solid #ccc;
+    width: 100%;
+    border-radius: 8px;
+    + .input-login-right {
+        margin-top: 12px;
+    }
+
+    input {
+        padding: 14px 16px;
+        border-radius: 8px;
+        width: 100%;
+        font-size: 17px;
+        &:focus {
+            border: 1px solid #0d63d3;
+            border-radius: 8px;
+        }
+    }
+}
+
+.btn-login-right {
+    height: 48px;
+    border-radius: 6px;
+    margin-top: 15px;
+    color: #f0f2f5;
+    font-size: 20px;
+    font-weight: 700;
+}
+.btn-login {
+    background-color: #1877f2;
+    margin: 20px 0;
+    width: 100%;
+    &:hover {
+        cursor: pointer;
+        background-color: #0d63d3;
+    }
+}
+.btn-creat {
+    background-color: #42b72a;
+
+    width: calc(100% / 2 + 20px);
+    &:hover {
+        cursor: pointer;
+        background-color: #30a519;
+    }
+}
+.btn-forgotpassword {
+    color: #1877f2;
+    font-size: 14px;
+    font-weight: 500;
+
+    position: relative;
+    font-weight: normal;
+}
+.mg20 {
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+    margin: 25px 0 10px 0;
+}
+//
+.creat-page {
+    margin-top: 28px;
+    font-size: 14px;
+    text-align: center;
+    a {
+        color: var(--color-text);
+        &:hover {
+            border-bottom: 1px solid;
+        }
+    }
+}

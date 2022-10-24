@@ -1,0 +1,43 @@
+.menu--messenger-item {
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    padding: 8px;
+    cursor: pointer;
+    &:hover {
+        background-color: #515253;
+    }
+}
+
+.messenger-item-avatar {
+    border-radius: 100%;
+    object-fit: cover;
+    width: 55px;
+}
+.messenger-item-name {
+    width: 204px;
+    margin-left: 10px;
+}
+.messenger-item-name-chat {
+    position: relative;
+    padding-right: 3px;
+    &::after {
+        content: '.';
+        position: absolute;
+        margin: 0 3px;
+        top: -5px;
+    }
+}
+.messenger-item-timeline {
+    font-size: 12px;
+    margin: 0 3px;
+}
+.messenger-item-icon-btn {
+    width: 50px;
+    display: flex;
+    justify-content: flex-end;
+    .messenger-item-icon {
+        color: #4599ff;
+        margin-left: 5px;
+    }
+}

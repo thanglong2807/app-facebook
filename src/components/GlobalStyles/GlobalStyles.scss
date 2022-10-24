@@ -3,10 +3,16 @@
 
 :root {
     --primary: #fe2c55;
-
+    --box-shadow: 0 1px 8px 5px #4b4b4b6b;
+    --color-text: #1c1e21;
+    --white-color: rgb(221, 220, 220);
     // Default layout
     --default-layout-header-height: 60px;
     --default-layout-width: 1150px;
+    // dark
+    --header-background_color: #242526;
+    --color-active: #2d88ff;
+    --background-active: #2d88ff33;
 }
 
 * {
@@ -24,4 +30,17 @@ body {
     font-size: 1.6rem;
     line-height: 1.5;
     text-rendering: optimizespeed;
+    user-select: none;
+    font-size: 14px;
+}
+button {
+    outline: none;
+    border: none;
+}
+input {
+    border: none;
+    outline: none;
+}
+a {
+    text-decoration: none;
 }
